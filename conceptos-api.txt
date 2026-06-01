@@ -1,0 +1,14 @@
+¿Qué es una API REST?
+Respuesta: Es un conjunto de reglas para que aplicaciones se comuniquen usando HTTP. REST significa Transferencia de Estado Representacional.
+
+¿Qué es Express.js?
+Respuesta: Es un framework de Node.js que facilita crear servidores y rutas. En nuestro código usamos express() para crear la aplicación.
+
+¿Qué hace app.get()?
+Respuesta: Define una ruta GET. El primer parámetro es la ruta '/saludo' y el segundo es la función que responde.
+
+¿Qué significa req.params.nombre?
+Respuesta: req.params captura los valores que van en la URL. En '/mensaje/juan' guarda "juan" en req.params.nombre.
+
+¿Qué hace app.listen(3000)?
+Respuesta: Pone al servidor a escuchar peticiones en el puerto 3000. Por eso abrimos http://localhost:3000
