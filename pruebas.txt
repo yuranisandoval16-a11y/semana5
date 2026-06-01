@@ -1,0 +1,11 @@
+Ruta http://localhost:3000
+Respuesta: "Servidor activo"
+Explicación: Es la ruta raíz. Cuando entramos sin nada más, el servidor responde con ese mensaje.
+
+Ruta http://localhost:3000/saludo
+Respuesta: "Hola comunidad" 
+Explicación: Ruta GET que devuelve un saludo fijo para cualquier usuario.
+
+Ruta http://localhost:3000/mensaje/juan
+Respuesta: "Hola juan"
+Explicación: Usa parámetro :nombre. Toma "juan" de la URL y lo pone en la respuesta.
