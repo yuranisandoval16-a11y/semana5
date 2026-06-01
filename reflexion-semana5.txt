@@ -1,0 +1,7 @@
+Reflexión Semana 5 - APIs con Express
+
+Lo que más me costó entender fue la diferencia entre rutas fijas como '/saludo' y rutas con parámetros como '/mensaje/:nombre'. Al principio no entendía para qué servía req.params.nombre, pero probando en el navegador me di cuenta que cambia según lo que escriba después de /mensaje/.
+
+Lo que aprendí: Que una API es básicamente un mesero. Tú pides algo con una URL y el servidor te responde con datos. Express hace que sea fácil crear esas "mesas" o rutas donde el cliente pide información.
+
+Para qué me sirve: Ahora entiendo cómo funcionan muchas apps que uso. Cuando abro Instagram y carga mi perfil, es porque el celular le hace una petición GET a una API y el servidor responde con mis datos.
